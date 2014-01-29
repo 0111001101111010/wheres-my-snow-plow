@@ -1,0 +1,44 @@
+Wheres my snowplow
+------------
+
+Allow Hampton Roads / Norfolk Citizens find if roads in their neighborhoods will be plowed.
+
+info
+---
+In the event of a snow storm that leaves accumulation, the Department of Public Works Field Operations division will begin clearing snow from streets according to the Primary Snow Removal Routes and Secondary Snow Removal Routes maps.  
+
+All Primary routes,  which include bridges/overpasses, downtown streets, and main arterial roads throughout the city, will be cleared first.  Fire and Police Stations, Hospitals, and City Garages will be cleared next.  When those areas have been cleared, then roads on the Secondary Snow Removal Routes list will be cleared.
+
+Crews do not plow residential roads due to the size of our equipment and safety concerns.  As such, please exercise extreme caution when operating on these roads in snow and ice conditions.
+
+To review the roads that are designated as Primary and Secondary routes, please refer to the following maps and legends:
+
+Primary Snow Removal Route Map
+Primary Snow Removal Route Descriptions
+Secondary Snow Removal Route Map
+Secondary Snow Removal Route Descriptions
+
+
+implement
+--------
+Utilize NorfolkNeighborhood Geojson to group plow routes and notify priority of plow.
+
+User: 
+
+Selects Downtown: 
+
+Returns:
+
+'''
+
+Current Priority: 
+
+Downtown Norfolk: 
+
+{Routes}:, 	{Name}, has a priotiy of {PriorityNum}
+-----------
+Route
+Route 4: On Waterside Dr. - From Main St. to Tidewater Dr. to W. Ocean View Ave has a priority of 3
+Route 7: On Graby St. nortbound from Monticello to Ocean View Ave has a priority of 4
+Route 15: On Granby St. – From Church St. to Main St. has a priority of 9
+'''
